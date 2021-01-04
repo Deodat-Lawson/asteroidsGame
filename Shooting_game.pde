@@ -90,7 +90,7 @@ void setup() {
   imageMode(CENTER);
   textAlign(CENTER);
   myShip = new Spaceship(); 
-  mode = END;
+  mode = START;
   introLogo = loadImage("Logo.png");
   home = loadImage("home2.jpg");
   end = loadImage("home.jpg");
